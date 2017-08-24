@@ -33,6 +33,11 @@ extension Path {
         return Path( pathString )
     }
     
+    public class var applicationSupportDir: Path {
+        return Path.userDomainOf(.ApplicationSupportDirectory)
+    }
+
+    
 }
 #endif
 
